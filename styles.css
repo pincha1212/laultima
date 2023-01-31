@@ -1,0 +1,63 @@
+.my-custom-size {
+    /* Tamaño completo de la imagen */
+    width: 100%;
+    height: 97vh;
+    /* Posición en la capa */
+    z-index: 1;
+    position: relative;
+  }
+  
+  .button-overlay {
+    /* Posición absoluta para los botones overlay */
+    position: absolute;
+  }
+
+  .custom-button {
+    background-color: #4caf50; /* Verde */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.custom-button:hover {
+    background-color: #3e8e41; /* Verde oscuro */
+    cursor: pointer;
+}
+
+.custom-button-2 {
+  background-color: #007bff; /* Azul */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.custom-button-2:hover {
+  background-color: #0069d9; /* Azul oscuro */
+  cursor: pointer;
+}
+
+.custom-button-3 {
+  background-color: #dc3545; /* Rojo */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.custom-button-3:hover {
+  background-color: #c82333; /* Rojo oscuro */
+  cursor: pointer;
+}
+
+  
